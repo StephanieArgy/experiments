@@ -1,0 +1,11 @@
+body {
+
+}
+
+main {
+  border: 35px solid transparent;
+  padding: 45px;
+  border-image: url("../images/line-border-clipart-line-border-designs-showcard_border.png") 10% round;
+  margin: auto;
+  max-width: 80%;
+}

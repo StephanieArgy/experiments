@@ -1,0 +1,24 @@
+main {
+  font-family: Helvetica;
+  font-weight: bold;
+  line-height: 1.4rem;
+  margin: 20px 15% 20px;
+}
+
+p {
+  margin-bottom: 1.2rem;
+}
+
+code {
+  color: #c60000;
+  font-size: 1.3rem;
+}
+
+.defunct {
+  color: #acacac;
+  font-weight: lighter;
+}
+
+.defunct code {
+  color: #8e8e8e;
+}
