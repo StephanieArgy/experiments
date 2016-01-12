@@ -1,0 +1,42 @@
+body {
+    background: #333333;
+    background-image: -webkit-linear-gradient(#fff, #eee);
+    background-image: -moz-linear-gradient(#fff, #eee);
+    background-image: -ms-linear-gradient(#fff, #eee);
+    background-image: -o-linear-gradient(#fff, #eee);
+    background-image: linear-gradient(bottom, #fff, #eee);
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    background: #333333;
+    background-image: -webkit-linear-gradient(#eee, #fff);
+    background-image: -moz-linear-gradient(#eee, #fff);
+    background-image: -ms-linear-gradient(#eee, #fff);
+    background-image: -o-linear-gradient(#eee, #fff);
+    background-image: linear-gradient(bottom, #eee, #fff);
+  border: 6px double #eee;
+  box-shadow: 2px 2px 2px rgba(102, 102, 102, .8);;
+  color: #fff;
+  font-size: 1.6rem;
+  margin: auto;
+  padding: 20px;
+  text-shadow: 1px 1px 2px rgba(10, 10, 10, .9);
+  width: 65%;
+}
+
+
+h1 {
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 4px 4px 8px rgba(102, 102, 102, .8);
+}
+
+h2 {
+  color: #fff;
+  font-size: 1.8rem;
+  text-align: center;
+  text-shadow: 4px 4px 8px rgba(102, 102, 102, .8);
+}
