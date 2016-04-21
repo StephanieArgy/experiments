@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Time of Day Experiment</title>
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+
+
+<script>
+function getStylesheet() {
+      var currentTime = new Date().getHours();
+      if (0 <= currentTime&&currentTime < 3) {
+       document.write("<link rel='stylesheet' href='styles/time_00-03.css' type='text/css'>");
+      }
+      if (3 <= currentTime&&currentTime < 6) {
+       document.write("<link rel='stylesheet' href='styles/time_03-06.css' type='text/css'>");
+      }
+      if (6 <= currentTime&&currentTime < 9) {
+       document.write("<link rel='stylesheet' href='styles/time_06-09.css' type='text/css'>");
+      }
+      if (9 <= currentTime&&currentTime <= 12) {
+       document.write("<link rel='stylesheet' href='styles/time_09-12.css' type='text/css'>");
+      }
+      if (12 <= currentTime&&currentTime < 15) {
+       document.write("<link rel='stylesheet' href='styles/time_12-15.css' type='text/css'>");
+      }
+      if (15 <= currentTime&&currentTime < 18) {
+       document.write("<link rel='stylesheet' href='styles/time_15-18.css' type='text/css'>");
+      }
+      if (18 <= currentTime&&currentTime < 21) {
+       document.write("<link rel='stylesheet' href='styles/time_18-21.css' type='text/css'>");
+      }
+      if (21 <= currentTime&&currentTime <= 24) {
+       document.write("<link rel='stylesheet' href='styles/time_21-24.css' type='text/css'>");
+      }
+}
+
+getStylesheet();
+</script>
+
+<noscript><link href="main.css" rel="stylesheet"></noscript>
+  </body>
+</html>
